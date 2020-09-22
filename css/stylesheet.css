@@ -1,0 +1,37 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.Ne6nSd {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.n1xJcf {
+    height: 60px;
+}
+
+.o3j99 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+a.MV3Tnb:first-of-type {
+    margin-left: 15px;
+}
+
+a.MV3Tnb {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    color: #222;
+}
