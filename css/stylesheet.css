@@ -12,6 +12,7 @@ div {
     display: flex;
     flex-direction: column;
     height: 100%;
+    padding-bottom: 35px;
 }
 
 .navigation {
@@ -20,11 +21,42 @@ div {
 }
 
 .logo {
-    
+    width: auto;
+    min-width: 400px;   
+    margin: 0 auto; 
+    margin-top: 90px;
 }
 
-.search {
-    
+.search-div {
+    width: auto;
+    padding-top: 6px;
+}
+
+.search-interior {
+    width: 582px;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 5px 8px 0 16px;
+}
+
+.mag-parent{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;   
+}
+
+.mag {
+    justify-content: center;
+    align-items: center;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
 }
 
 .announcement {
@@ -33,4 +65,14 @@ div {
 
 .footer {
     
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.googlebutton {
+    font-size: 13px;
 }
