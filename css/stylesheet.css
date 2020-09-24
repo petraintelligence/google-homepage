@@ -1,0 +1,9 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
