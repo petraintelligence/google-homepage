@@ -1,9 +1,31 @@
 body {
     font-family: arial,sans-serif;
+    font-size: 13px;
 }
 
 a:-webkit-any-link{
     text-decoration: none;
     color: #000;
     opacity: 0.75;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    color: #000;
+    opacity: 0.75;
+}
+
+.search-bar {
+    border-radius: 24px;
+    background: #fff;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    width: 582px;
+}
+
+input {
+    border: 0px;
 }
