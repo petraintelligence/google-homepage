@@ -16,8 +16,9 @@ div {
 }
 
 .navigation {
-    display: flex;
-    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0
 }
 
 .logo {
@@ -82,6 +83,15 @@ div {
     padding-left: 15px;
     color: #000;
     opacity: 0.75;
+}
+
+#l-button-div a {
+    display:inline-block;
+    padding-left: 15px;
+}
+
+.right-button {
+    float: right;
 }
 
 a:-webkit-any-link {
