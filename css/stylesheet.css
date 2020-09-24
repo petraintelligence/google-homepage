@@ -21,6 +21,13 @@ div {
     right: 0
 }
 
+.lr-button-div {
+    display: inline-block;
+    padding-right: 15px;
+    color: #000;
+    opacity: 0.75;
+}
+
 .logo {
     width: auto;
     min-width: 400px;   
@@ -97,7 +104,7 @@ div {
 a:-webkit-any-link {
     color: #000;
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #000;
 }
 
