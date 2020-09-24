@@ -15,7 +15,11 @@ ul {
     padding: 0;
 }
 
-button {
+li {
+    float: left;
+}
+
+.buttons button {
     color: #5F6368;
     background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
     background-color: #f2f2f2;
@@ -54,8 +58,42 @@ input {
 
 .left-nav {
     float: left;
+    margin: 0;
+    margin-top: 12px;
 }
+.right-nav-button {
+    float:right;
+}
+
+.right-nav-button button {
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    color: #fff;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 2px;
+}
+
 
 .right-nav {
     float: right;
+    margin: 0;
+    margin-top: 12px;
 }
+
+.left-nav a {
+    padding-left: 15px;
+}
+
+.right-nav a {
+    padding-right: 15px;
+    margin-top: 15px;
+}
+
+
+
