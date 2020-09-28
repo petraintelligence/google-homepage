@@ -79,9 +79,12 @@ input {
     border-radius: 2px;
 }
 
+.r {
+    float: right;
+}
 
 .right-nav {
-    float: right;
+    display: inline-block;
     margin: 0;
     margin-top: 12px;
 }
