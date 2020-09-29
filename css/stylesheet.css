@@ -16,7 +16,7 @@ body {
 }
 
 nav{
-    padding: 5px;
+    padding: 5px 14px;
 
     @media (min-width:600px){
         padding: 10px;
@@ -26,8 +26,6 @@ nav{
 nav.flexbox {
     display:flex;
     justify-content: space-between;
-
-
 }
 
 a:-webkit-any-link{
@@ -74,6 +72,31 @@ li {
     align-items: center;
 }
 
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 4px;
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #efefef;
+    display:flex;
+    justify-content: space-between;
+}
+
+#logodiv {
+    display: flex;
+    justify-content: center;
+    height: 92px;
+    margin-top: 89px;
+}
+
+#logo {
+    height: 92px;;
+    width: 272px;
+}
+
 
 #search {
     display: flex;
@@ -109,19 +132,3 @@ input {
     text-align: center;
 }
 
-#mainbody {
-    display: block;
-    margin-top: 89px;
-    height: 233px;
-    text-align: center;
-}
-
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    z-index: 999999;
-    width: 100%;
-    padding: 7px;
-    background-color: #efefef;
-}
