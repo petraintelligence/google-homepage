@@ -26,6 +26,8 @@ nav{
 nav.flexbox {
     display:flex;
     justify-content: space-between;
+
+
 }
 
 a:-webkit-any-link{
@@ -38,24 +40,35 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 li {
-    display: block;
-    float: left;
-    padding: 8px;
-}
-/*
-.right {
-    float: right;
-    padding-right: 7;
+    margin: 8px;
 }
 
-.left {
-    padding-left: 7;
-    float: left;
+ .bu {
+    border: 1px solid #4285f4;
+    outline: none;
+    background: -webkit-linear-gradient(top, #4387fd, #4683ea);
+    border-radius: 2px;
+    padding: 0 12px;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+ }
+
+#signin {
+    color: #fff;
+    font-weight: bold;
+    opacity: 1;
 }
-*/
+
+
 
 
 #search {
