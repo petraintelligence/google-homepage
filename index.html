@@ -5,36 +5,33 @@
     </head>
     
     <body>
-        <!--Navigation-->
-        <div class="navigation">
+        <div id="navbar">
             <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Store</a></li>
-                    <li><a href="#">Gmail</a></li>
-                    <li><a href="#">Images</a></li>
-                    <li><a class="apps-image" href="x" title="Google apps" aria-expanded="false" role="button" tabindex="0">Apps</a></li>
-                    <button type="button">Sign in</button>
-
+                <li class="left"><a href="">About</a></li>
+                <li class="left"><a href="">Store</a></li>
+                <li class="right"><a href="">Profile</a></li>
+                <li class="right"><a href="">Grid</a></li>
+                <li class="right"><a href="">Images</a></li>
+                <li class="right"><a href="">Gmail</a></li>
             </ul>
         </div>
         <!--Logo-->
-        <div class="logo">
+        <div id="mainbody">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
-        </div>
+            <br>
+            <div id="searchbar">
+                <form>
+                    <input type="searc" id="search" name="search"> <br>
+                    <div class="spacing">
+                        <input type="submit" value="Google Search" class="button">
+                        <input type="submit" value="I'm feeling lucky" class="button">
+                    </div>
+                </form>
+            </div>
+        </div><br>
 
-        <!--Search-->
-        <div class="search-bar">
-            <input type="search">
-        </div>
-
-        <!--Buttons-->
-        <div class="buttons">
-            <button type="button">Google Search</button>
-            <button type="button">I'm feeling lucky</button>
-        </div>   
-        
         <!--Footer-->
-        <ul class="footer">
+        <ul id="footer">
             <li><a href="#">Advertising</a></li>
             <li><a href="#">Business</a></li>
             <li><a href="#">How Search Works</a></li>
