@@ -1,6 +1,31 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
 body {
     font-family: arial,sans-serif;
     font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+nav{
+    padding: 5px;
+
+    @media (min-width:600px){
+        padding: 10px;
+    }
+}
+
+nav.flexbox {
+    display:flex;
+    justify-content: space-between;
 }
 
 a:-webkit-any-link{
@@ -13,7 +38,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 li {
@@ -21,7 +45,7 @@ li {
     float: left;
     padding: 8px;
 }
-
+/*
 .right {
     float: right;
     padding-right: 7;
@@ -31,17 +55,8 @@ li {
     padding-left: 7;
     float: left;
 }
+*/
 
-
-#navbar {
-    position: fixed;
-    left: 0;
-    top: 0;
-    z-index: 99999999;
-    height: 750px;
-    width: 100%;
-    display: inline-block;
-}
 
 #search {
     display: flex;
